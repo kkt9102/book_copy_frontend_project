@@ -16,7 +16,9 @@
 
 # 프로젝트 구동 명령어
 
-- git clone https://github.com/kkt9102/book_copy_frontend_project.git
+- git clone https://gitlab.com/intelli-RnD/fordev.git
+
+- cd react-kitae/book_copy_crud
 
 - yarn install
 
