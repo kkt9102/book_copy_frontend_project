@@ -11,7 +11,7 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 import App from './App';
 import rootReducer from './modules';
 // style
-import './resorce/style/common.css';
+import './resource/style/common.css';
 const store = createStore(rootReducer, composeWithDevTools());
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
