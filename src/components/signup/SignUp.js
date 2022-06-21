@@ -1,7 +1,13 @@
+// components
+import AuthForm from '../auth/AuthForm';
+import AuthTemplate from '../auth/AuthTemplate';
+
 const SignUp = () => {
   return (
     <>
-      <div>SignUp</div>
+      <AuthTemplate>
+        <AuthForm type="signup" />
+      </AuthTemplate>
     </>
   );
 };

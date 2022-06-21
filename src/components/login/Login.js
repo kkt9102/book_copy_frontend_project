@@ -6,7 +6,7 @@ const Login = () => {
   return (
     <>
       <AuthTemplate>
-        <AuthForm />
+        <AuthForm type="login" />
       </AuthTemplate>
     </>
   );
