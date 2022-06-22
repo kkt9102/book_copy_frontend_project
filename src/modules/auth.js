@@ -11,7 +11,7 @@ export const changeField = createAction(
 export const initializeForm = createAction(INITIALIZE_FORM, (form) => form);
 
 const initialState = {
-  register: {
+  signup: {
     username: '',
     password: '',
     passwordConfirm: '',

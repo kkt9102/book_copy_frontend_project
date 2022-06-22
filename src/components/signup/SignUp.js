@@ -1,12 +1,12 @@
 // components
-import AuthForm from '../auth/AuthForm';
+import SignUpForm from '../auth/SignUpForm';
 import AuthTemplate from '../auth/AuthTemplate';
 
 const SignUp = () => {
   return (
     <>
       <AuthTemplate>
-        <AuthForm type="signup" />
+        <SignUpForm />
       </AuthTemplate>
     </>
   );
